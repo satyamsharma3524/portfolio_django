@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <title>Satyam Sharma</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hi! My name is Satyam Sharma. I am a Student and Web Developer, and I'm very passionate and dedicated to my work as a professional Web developer.">
+  <meta name="robots" content="index, follow">
+   <!-- Template css Files -->
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+  <link rel="stylesheet" href="{% static 'css/skins/pink.css' %}" type="text/css">
+
+  <!-- Live Style Switcher  -->
+  <link rel="stylesheet" class="alternate-style" title="pink" href="{% static 'css/skins/pink.css' %}" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="blue" href="{% static 'css/skins/blue.css' %}" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="orange" href="{% static 'css/skins/orange.css' %}" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="yellow" href="{% static 'css/skins/yellow.css' %}" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="green" href="{% static 'css/skins/green.css' %}" type="text/css" disabled>
+  <link rel="stylesheet" href="{% static 'css/styleSwitcher.css' %}" type="text/css">
+
+</head>
+<body>
+
+    <!-- Main contaner  -->
+    <div class="main-container">
+
+      <!-- Aside  -->
+      <div class="aside">
+
+        <!-- Logo  -->
+        <div class="logo">
+          <a href="#">Satyam</a>
+        </div>
+
+        <!-- Nav Toggler Button  -->
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+
+        <!-- Nav  -->
+        <ul class="nav">
+          <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+          <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+          <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+          <li><a href="#blog"><i class="fa fa-envelope"></i> Blog</a></li>
+          <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+        </ul>
+
+        <!-- Copyright  -->
+        <div class="copyright-text">
+          <section class="home section">
+            &copy;2021-22 Satyam
+          </section>
+        </div>
+
+      </div>
+      <!-- Aside-End  -->
+
+      <!-- Main content  -->
+      <div class="main-content">
+
+        <!-- Home Section  -->
+        <section class="home section active" id="home">
+          <div class="container">
+            <div class="intro">
+              <img src="{% static 'images/IMG_20201009_225521_895.jpg' %}" alt="Profile" class="shadow-dark">
+              <h1>Satyam Sharma</h1>
+              <p>I'm a Web Developer</p>
+              
+              <!-- Social-Links  -->
+              <div class="social-links">
+                <a href="https://twitter.com/SatyamS30899775"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100022780313752"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/official_satyam18/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/satyam-sharma-726b19202/"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Home section end  -->
+
+        <!-- About Section  -->
+        <section class="about section" id="about">
+          <div class="container">
+
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="about-content padd-15">
+
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>I'm Satyam Sharma and <span>Web Developer</span></h3>
+                    <p>Hi! My name is Satyam Sharma. I am a Web Developer, and I'm very passionate and dedicated to my work. With 1 year experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration. </p>
+                  </div>
+                </div>
+
+                <div class="row">
+
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-items padd-15">
+                        <p>Birthday : <span>10 September 2001</span></p>
+                      </div>
+                      <div class="info-items padd-15">
+                        <p>Age : <span>19</span></p>
+                      </div>
+                      <div class="info-items padd-15">
+                        <p>Website : <span>www.example.com</span></p>
+                      </div>
+                      <div class="info-items padd-15">
+                        <p>Email : <span>code@gmail.com</span></p>
+                      </div>
+                      <div class="info-items padd-15">
+                        <p>Degree : <span>BCA</span></p>
+                      </div>
+                      <div class="info-items padd-15">
+                        <p>Phone : <span>7889038510</span></p>
+                      </div>
+                      <div class="info-items padd-15">
+                        <p>City : <span>Ludhiana</span></p>
+                      </div>
+                      <div class="info-items padd-15">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a href="{% static 'resource/Satyam_Resume.pdf' %}" class="btn" download>Download CV</a>
+                        <a href="#contact" class="btn">Hire Me</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="skills padd-15">
+                    <div class="row">
+
+                      <div class="skill-items padd-15">
+                        <h5>JavaScript</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 76%;">
+                            <div class="skill-percent">76%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="skill-items padd-15">
+                        <h5>Wordpress</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 90%;">
+                            <div class="skill-percent">90%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="skill-items padd-15">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 92%;">
+                            <div class="skill-percent">92%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="skill-items padd-15">
+                        <h5>BootStrap</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 86%;">
+                            <div class="skill-percent">86%</div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+
+                          <!-- Timeline-Items  -->
+
+                          <div class="timeline-items">
+                            <div class="circle-dot"></div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2019-2022
+                            </h6>
+                            <h4 class="timeline-title">Bachelors in Computer Applications</h4>
+                            <p class="timeline-text">I am Persuing BCA (Bachelors in Computer Applications) currently in Fourth Semester and as A Part time Work i create Websites for differnt peoples and Enjoy Programming a Lot.</p>
+                            
+                          </div>
+
+                          <div class="timeline-items">
+                              <div class="circle-dot"></div>
+                              <h6 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2017-2019
+                              </h6>
+                              <h4 class="timeline-title">Intermediate Studies</h4>
+                              <p class="timeline-text">I completed my Intermediate Studies ( 12th Standard ) in 2019. My intermediate studies are from Science stream, But since i prefer computer Science more so i adopted BCA as further studies.</p>
+                          </div>
+
+                          <div class="timeline-items">
+                            <div class="circle-dot"></div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2015-2017
+                            </h6>
+                            <h4 class="timeline-title">Matrics Studies</h4>
+                            <p class="timeline-text">I completed my Matrics Studies ( 10th Standard ) in 2017. After that I joined the Science Stream for the Intermediate studies.</p>
+                            
+                          </div>
+                          
+                          <!-- Timeline Items End  -->
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+
+                          <!-- Timeline-Items  -->
+
+                          <div class="timeline-items">
+                            <div class="circle-dot"></div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2019-2022
+                            </h6>
+                            <h4 class="timeline-title">Frontend Developer</h4>
+                            <p class="timeline-text">I'm working as a Front-end Developer Since i joined my college for further studies and trying to learn New technologies to improve myself in this Tech oriented world.</p>
+                            
+                          </div>
+
+                          <div class="timeline-items">
+                              <div class="circle-dot"></div>
+                              <h6 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2017-2019
+                              </h6>
+                              <h4 class="timeline-title">National Level Model Maker</h4>
+                              <p class="timeline-text">Awarded as the Best model maker in the National level model making competition during my Intermediate studies, in the field of Transport and communication from the science council of india. </p>
+                          </div>
+
+                          <div class="timeline-items">
+                            <div class="circle-dot"></div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2015-2017
+                            </h6>
+                            <h4 class="timeline-title">Matrics Studies</h4>
+                            <p class="timeline-text">I completed my Matrics Studies ( 10th Standard ) in 2017. After that I joined the Science Stream for the Intermediate studies.</p>
+                            
+                          </div>
+                          
+                          <!-- Timeline Items End  -->
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- About section end  -->
+
+
+
+        <!-- Service section  -->
+
+        <section class="service section" id="services">
+          <div class="container">
+
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Services</h2>
+              </div>
+            </div>
+
+            <div class="row">
+
+              <!-- Service items  -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-laptop"></i></div>
+                  <h4>Web Design</h4>
+                  <p>I'm working as a web-designer with a good skills in HTML-5, CSS and javascript.</p>
+                </div>
+              </div>
+              <!-- Service items End -->
+
+              <!-- Service items  -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-photo"></i></div>
+                  <h4>Photography</h4>
+                  <p>Passionate Photographer Loves to take photos of Natural Lifestyle. I do photography as a Hobby.</p>
+                </div>
+              </div>
+              <!-- Service items End -->
+
+              <!-- Service items  -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-code"></i></div>
+                  <h4>Web Development</h4>
+                  <p>Loves to Create new Websites using new technologies and Desigining. Trying to improve myself as a Flawless Developer.</p>
+                </div>
+              </div>
+              <!-- Service items End -->
+
+              <!-- Service items  -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-film"></i></div>
+                  <h4>Video Editing</h4>
+                  <p>Likes to Edit videos just for Personal Entertainment and Joy as use this as my Hobby.</p>
+                </div>
+              </div>
+              <!-- Service items End -->
+
+              <!-- Service items  -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-rocket"></i></div>
+                  <h4>SEO Optimisation</h4>
+                  <p>Create Well Designed and Search Engines Optimised Websites that are easy to search on Web.</p>
+                </div>
+              </div>
+              <!-- Service items End -->
+
+              <!-- Service items  -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                  <h4>Logo Design</h4>
+                  <p>Design logos for the Brands that can be used in Brand Websites and give them a good Brand status.</p>
+                </div>
+              </div>
+              <!-- Service items End -->
+
+            </div>
+          </div>
+        </section>
+
+        <!-- Service Section End  -->
+
+
+
+        <!-- Portfolio Section  -->
+
+        <div class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Portfolio</h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="portfolio-filter padd-15">
+                <button type="button" class="active" data-filter="all">All</button>
+                <button type="button" data-filter="web-design">Web Design</button>
+                <button type="button" data-filter="photography">Photography</button>
+                <button type="button" data-filter="wordpress">Wordpress</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Portfolio-item one -->
+              <div class="portfolio-item padd-15" data-category="web-design">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="{% static 'images/portfolio/1.jpg' %}" alt="Portfolio">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Web Design</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio-items End  -->
+
+              <!-- Portfolio-item two -->
+              <div class="portfolio-item padd-15" data-category="wordpress">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="{% static 'images/portfolio/2.jpg' %}" alt="Portfolio">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Wordpress</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio-items End  -->
+
+              <!-- Portfolio-item three -->
+              <div class="portfolio-item padd-15" data-category="web-design">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="{% static 'images/portfolio/3.jpg' %}" alt="Portfolio">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Web Design</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio-items End  -->
+
+              <!-- Portfolio-item four -->
+              <div class="portfolio-item padd-15" data-category="photography">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="{% static 'images/portfolio/4.jpg' %}" alt="Portfolio">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Photography</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio-items End  -->
+
+              <!-- Portfolio-item five -->
+              <div class="portfolio-item padd-15" data-category="wordpress">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="{% static 'images/portfolio/5.jpg' %}" alt="Portfolio">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Wordpress</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio-items End  -->
+
+              <!-- Portfolio-item Six -->
+              <div class="portfolio-item padd-15" data-category="web-design">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="{% static 'images/portfolio/6.jpg' %}" alt="Portfolio">
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Web Design</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio-items End  -->
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio Section end  -->
+
+
+        <!-- Blog section  -->
+        
+        <section class="blog section" id="blog">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Latest Blog</h2>
+              </div>
+            </div>
+            <div class="row">
+
+              <!-- Blog Items  -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner shadow-dark">
+                  <div class="blog-img">
+                    <img src="{% static 'images/blog/1.jpg' %}" alt="blog">
+                    <div class="blog-date">4 March 2021</div>
+                  </div>
+                  <div class="blog-info">
+                    <h4 class="blog-title">Responsive Web Design</h4>
+                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                    <p class="blog-tags">Tags : <a href="#"> Html </a>, <a href="#"> CSS </a></p> 
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Items End  -->
+
+              <!-- Blog Items  -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner shadow-dark">
+                  <div class="blog-img">
+                    <img src="{% static 'images/blog/2.jpg' %}" alt="blog">
+                    <div class="blog-date">4 March 2021</div>
+                  </div>
+                  <div class="blog-info">
+                    <h4 class="blog-title">Creative Slideshow</h4>
+                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                    <p class="blog-tags">Tags : <a href="#"> Html </a>, <a href="#"> JavaScript </a></p> 
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Items End  -->
+
+              <!-- Blog Items  -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner shadow-dark">
+                  <div class="blog-img">
+                    <img src="{% static 'images/blog/3.jpg' %}" alt="blog">
+                    <div class="blog-date">4 March 2021</div>
+                  </div>
+                  <div class="blog-info">
+                    <h4 class="blog-title">Image Gallery Lightbox</h4>
+                    <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                    <p class="blog-tags">Tags : <a href="#"> Html </a>, <a href="#"> JavaScript </a></p> 
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Items End  -->
+              
+            </div>
+          </div>
+        </section>
+
+        <!-- Blog section End -->
+
+
+        <!-- Contact Section  -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <div class="row">
+
+              <!-- Contact info Item  -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Us On</h4>
+                <p>+91 78890-38510</p>
+              </div>
+              <!-- Contact info Item end  -->
+
+              <!-- Contact info Item  -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker"></i></div>
+                <h4>Office</h4>
+                <p>Ludhiana, Punjab, India-141001</p>
+              </div>
+              <!-- Contact info Item end  -->
+
+              <!-- Contact info Item  -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>satyamsharma3524@gmail.com</p>
+              </div>
+              <!-- Contact info Item end  -->
+            </div>
+
+            <!-- Contact Form  -->
+            <div class="row">
+              <form action="" method="POST" class="contact-form padd-15">{% csrf_token %}
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="text" id="email" name="email" class="form-control" placeholder="Email">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input type="text" id="subjects" name="subject" class="form-control" placeholder="Subject">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea class="form-control" name="desc" id="messages" placeholder="Your Message..."></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 padd-15">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+
+
+              </form>
+            </div>
+            <!-- Contact Form End  -->
+
+          </div>
+        </section>
+        <!-- Contact section end  -->
+        
+
+      </div>
+      <!-- Main content End -->
+    </div>
+    <!-- Main Container  -->
+
+
+    <!-- Lightbox  -->
+
+    <div class="lightbox">
+      <div class="lightbox-content">
+        <div class="lightbox-close">&times;</div>
+        <img src="{% static 'images/portfolio/2.jpg' %}" class="lightbox-img" onclick="nextItem()">
+        <div class="lightbox-caption">
+          <div class="caption-text"></div>
+          <div class="caption-counter"></div>
+        </div>
+      </div>
+      <div class="lightbox-controls">
+        <div class="prev-item" onclick="prevItem()"><li class="fa fa-angle-left"></li></div>
+        <div class="next-item" onclick="nextItem()"><li class="fa fa-angle-right"></li></div>
+      </div>
+    </div>
+
+    <!-- Lightbox End  -->
+
+    <!-- Live Style Switcher  -->
+    <div class="style-switcher">
+      <div class="toggle-style-switcher">
+        <i class="fa fa-cog fa-spin"></i>
+      </div>
+      <h5>Style Switcher</h5>
+      <ul>
+        <li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3; " onclick="setActiveStyle('blue')"></a></li>
+        <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f; " onclick="setActiveStyle('orange')"></a></li>
+        <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400; " onclick="setActiveStyle('yellow')"></a></li>
+        <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839; " onclick="setActiveStyle('pink')"></a></li>
+        <li><a href="javascript:void(0);" title="green" style="background-color: #72b626; " onclick="setActiveStyle('green')"></a></li>
+      </ul>
+      <h5>Body Skin</h5>
+      <label>
+        <input type="radio" class="body-skin" name="body-style" value="light" checked="true">Light
+      </label>
+      <label>
+        <input type="radio" class="body-skin" name="body-style" value="dark">Dark
+      </label>
+    </div>
+    <!-- Live Style Switcher End -->
+
+
+    <!-- Template JavaScript  -->
+    <script src="{% static 'js/script.js' %}"></script>
+
+    <!-- Style Switcher JavaScript  -->
+    <script src="{% static 'js/styleSwitcher.js' %}"></script>
+
+
+
+</body>
+</html>
+
